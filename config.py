@@ -23,12 +23,12 @@ class RoxyBotConfig:
     """Configuration class for Roxy Zip Maker Bot"""
     
     # Bot Configuration
-    ROXYBOT_API_ID = int(os.environ.get("API_ID", "0"))
-    ROXYBOT_API_HASH = os.environ.get("API_HASH", "")
-    ROXYBOT_BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    ROXYBOT_API_ID = int(os.environ.get("API_ID", "27806628"))
+    ROXYBOT_API_HASH = os.environ.get("API_HASH", "25d88301e886b82826a525b7cf52e090")
+    ROXYBOT_BOT_TOKEN = os.environ.get("BOT_TOKEN", "8507742647:AAHTtfzXCZyoWR5wRLth_sdZdXNoe6PLtOs")
     
     # MongoDB Configuration
-    ROXYBOT_MONGODB_URI = os.environ.get("MONGODB_URI", "")
+    ROXYBOT_MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://botskingdom2:t7ognZuINrNfH3tj@cluster0.ystdy4m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")")
     ROXYBOT_DATABASE_NAME = os.environ.get("DATABASE_NAME", "roxyzipmakerbotdb")
     
     # Flask Configuration
@@ -36,14 +36,14 @@ class RoxyBotConfig:
     ROXYBOT_FLASK_HOST = os.environ.get("HOST", "0.0.0.0")
     
     # Bot Settings
-    ROXYBOT_OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
+    ROXYBOT_OWNER_ID = int(os.environ.get("OWNER_ID", "8525952693"))
     ROXYBOT_LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "0"))
     
     # Admin IDs (space or comma separated for multiple admins)
     @staticmethod
     def roxybot_get_admin_ids():
         """Get list of admin IDs from environment variable"""
-        admin_str = os.environ.get("ADMIN_IDS", "")
+        admin_str = os.environ.get("ADMIN_IDS", "8525952693")
         if not admin_str:
             # Fallback to OWNER_ID if ADMIN_IDS not set
             owner = os.environ.get("OWNER_ID", "0")
