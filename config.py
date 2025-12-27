@@ -25,11 +25,11 @@ class RoxyBotConfig:
     # Bot Configuration
     ROXYBOT_API_ID = int(os.environ.get("API_ID", "27806628"))
     ROXYBOT_API_HASH = os.environ.get("API_HASH", "25d88301e886b82826a525b7cf52e090")
-    ROXYBOT_BOT_TOKEN = os.environ.get("BOT_TOKEN", "8507742647:AAHTtfzXCZyoWR5wRLth_sdZdXNoe6PLtOs")
+    ROXYBOT_BOT_TOKEN = os.environ.get("BOT_TOKEN", "8571591366:AAFO_ftqBGfiNlMTFWeQDPcz4aVPdECWWB0")
     
     # MongoDB Configuration
-    ROXYBOT_MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://botskingdom2:t7ognZuINrNfH3tj@cluster0.ystdy4m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")")
-    ROXYBOT_DATABASE_NAME = os.environ.get("DATABASE_NAME", "roxyzipmakerbotdb")
+    ROXYBOT_MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://Bosshub:JMaff0WvazwNxKky@cluster0.l0xcoc1.mongodb.net/?appName=Cluster0")
+    ROXYBOT_DATABASE_NAME = os.environ.get("DATABASE_NAME", "roxyzipmakerbotdbk")
     
     # Flask Configuration
     ROXYBOT_FLASK_PORT = int(os.environ.get("PORT", "8080"))
